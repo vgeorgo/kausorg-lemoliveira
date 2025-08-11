@@ -62,7 +62,7 @@ const gifts = [
   {
     id: 8,
     image: dogSpaImg,
-    title: "1 ano de banho para o Tino (cachorro)",
+    title: "1 ano de banho para o Tino",
     price: "R$ 650,00",
     purchaseLink: "https://pix.example.com/dog-spa"
   },
@@ -85,9 +85,12 @@ export const GiftsList = () => {
           </h2>
           <div className="w-24 h-0.5 bg-earth mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Sua presença é o nosso maior presente, mas se quiser nos ajudar de alguma forma, 
-            escolha um dos presentes abaixo e copie o link PIX para realizar a compra.
+            Aqui vão algumas ideias para nos presentear.
           </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
+            Após a escolha é só clicar no botão para copiar o link PIX.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Sua presença é o nosso maior presente!</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
