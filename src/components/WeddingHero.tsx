@@ -1,7 +1,13 @@
+import forestHero from "@/assets/forest-hero.jpg";
+
 export const WeddingHero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-sage-lighter via-background to-earth-lighter">
-      <div className="absolute inset-0 bg-gradient-elegant opacity-60"></div>
+    <section className="relative min-h-screen flex items-center justify-center">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${forestHero})` }}
+      ></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-sage/40 via-earth/30 to-sage-lighter/50"></div>
       
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-8">
