@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				sage: {
+					DEFAULT: 'hsl(var(--sage))',
+					light: 'hsl(var(--sage-light))',
+					lighter: 'hsl(var(--sage-lighter))'
+				},
+				earth: {
+					DEFAULT: 'hsl(var(--earth))',
+					light: 'hsl(var(--earth-light))',
+					lighter: 'hsl(var(--earth-lighter))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -89,6 +99,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				serif: ['Playfair Display', 'serif'],
+				sans: ['Inter', 'sans-serif']
 			}
 		}
 	},
