@@ -8,14 +8,15 @@ import wineSweetImg from "@/assets/wine-sweet.jpg";
 import champagneImg from "@/assets/champagne.jpg";
 import dogSpaImg from "@/assets/dog-spa.jpg";
 import milesImg from "@/assets/miles.jpg";
+import pratoComidaImg from "@/assets/prato-comida.jpg";
 
 const gifts = [
   {
     id: 1,
-    image: honeymoonImg,
-    title: "Passeio de lua de mel",
-    price: "R$ 150,00",
-    purchaseLink: "https://pix.example.com/honeymoon"
+    image: pratoComidaImg,
+    title: "Sua parte no jantar do casamento (por pessoa)",
+    price: "R$ 200,00",
+    purchaseLink: "00020126580014BR.GOV.BCB.PIX01367c27a4b8-2a03-42e1-ac39-5e1e70a631ba5204000053039865406200.005802BR5921Victor Georg Oliveira6009SAO PAULO62140510LrWAKX5MCf6304F13E"
   },
   {
     id: 2,
@@ -23,13 +24,6 @@ const gifts = [
     title: "1 mês de academia para os noivos se recuperarem das gordices",
     price: "R$ 300,00",
     purchaseLink: "https://pix.example.com/gym"
-  },
-  {
-    id: 3,
-    image: snacksImg,
-    title: "Snacks para levar na viagem de lua de mel",
-    price: "R$ 50,00",
-    purchaseLink: "https://pix.example.com/snacks"
   },
   {
     id: 4,
@@ -44,13 +38,6 @@ const gifts = [
     title: "Vinho SECO para amadurecer o paladar dos noivos",
     price: "R$ 500,00",
     purchaseLink: "https://pix.example.com/wine-dry"
-  },
-  {
-    id: 6,
-    image: wineSweetImg,
-    title: "Vinho DOCE que os noivos gostam",
-    price: "R$ 20,00",
-    purchaseLink: "https://pix.example.com/wine-sweet"
   },
   {
     id: 7,
