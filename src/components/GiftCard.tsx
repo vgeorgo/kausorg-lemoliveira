@@ -22,7 +22,7 @@ export const GiftCard = ({ image, title, price, purchaseLink }: GiftCardProps) =
   };
 
   return (
-    <Card className="overflow-hidden bg-card border-sage-lighter hover:shadow-lg transition-shadow duration-300">
+    <Card className="overflow-hidden bg-card border-sage-lighter hover:shadow-lg transition-shadow duration-300 p-5">
       <div className="aspect-square overflow-hidden">
         <img 
           src={image} 
