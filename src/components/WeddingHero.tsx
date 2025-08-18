@@ -1,4 +1,5 @@
-//import forestHero from "@/assets/vito-carol-tino.jpg";
+import churchImg from "@/assets/church.jpg";
+import restauranteImg from "@/assets/restaurante.jpg";
 
 export const WeddingHero = () => {
   return (
@@ -31,15 +32,28 @@ export const WeddingHero = () => {
               <p className="text-foreground">25 de outubro de 2025</p>
             </div>
             
-            <div>
-              <h3 className="font-semibold text-sage mb-2">Horário</h3>
-              <p className="text-foreground">17h25</p>
-            </div>
-            
             <div className="md:col-span-2">
-              <h3 className="font-semibold text-sage mb-2">Local</h3>
-              <p className="text-foreground">Paróquia Senhor Bom Jesus do Portão</p>
-              <p className="text-muted-foreground">Rua João Bettega, praça Pe. João Bagozzi</p>
+              <h3 className="font-semibold text-sage mb-2">Cerimônia (17h25)</h3>
+              <img className="mx-auto mb-4" src={churchImg} alt="Foto da Igreja" />
+              <p className="text-foreground">Igreja do Senhor Bom Jesus do Portão - Igreja Antiga</p>
+              <p className="text-muted-foreground">Rua João Bettega, 07 Portão, Curitiba - PR</p>
+              <button className="mt-4 px-6 py-2 bg-sage text-white rounded hover:bg-sage-dark transition-colors">
+                <a href="https://maps.app.goo.gl/dh2hPraR4ksxZJ2t6" target="_blank" rel="noopener noreferrer">
+                  Ver no Google Maps
+                </a>
+              </button>
+            </div>
+
+            <div className="md:col-span-2">
+              <h3 className="font-semibold text-sage mb-2">Recepção (19h30)</h3>
+              <img className="mx-auto mb-4" src={restauranteImg} alt="Foto do Restaurante" />
+              <p className="text-foreground">Dom Parma Trattoria</p>
+              <p className="text-muted-foreground">R. Comendador Araújo, 598 - Batel, Curitiba - PR</p>
+              <button className="mt-4 px-6 py-2 bg-sage text-white rounded hover:bg-sage-dark transition-colors">
+                <a href="https://maps.app.goo.gl/mHfCsqDDckfzcQsE9" target="_blank" rel="noopener noreferrer">
+                  Ver no Google Maps
+                </a>
+              </button>
             </div>
           </div>
         </div>
