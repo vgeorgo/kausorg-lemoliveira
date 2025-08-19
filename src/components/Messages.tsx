@@ -9,7 +9,7 @@ export const Messages = () => {
           <div className="w-24 h-0.5 bg-earth mx-auto mb-6"></div>
           <iframe 
             src="https://forms.gle/vroeiJDqBi7f4PXU6"
-            width="640" 
+            width="500" 
             height="700"
             title="Lista de Presença"
           >

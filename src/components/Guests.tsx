@@ -12,7 +12,7 @@ export const Guests = () => {
           </p>
           <iframe 
             src="https://forms.gle/jdqNuqKM1dkpwVj36"
-            width="640" 
+            width="500" 
             height="950"
             title="Lista de Presença"
           >
