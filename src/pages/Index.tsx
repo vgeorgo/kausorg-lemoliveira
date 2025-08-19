@@ -3,6 +3,7 @@ import { GiftsList } from "@/components/GiftsList";
 import { Footer } from "@/components/Footer";
 import { Guests } from "@/components/Guests";
 import { DressCode } from "@/components/DressCode";
+import { Messages } from "@/components/Messages";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <GiftsList />
       <DressCode />
       <Guests />
+      <Messages />
       <Footer />
     </div>
   );
