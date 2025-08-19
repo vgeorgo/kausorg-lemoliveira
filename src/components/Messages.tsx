@@ -10,7 +10,7 @@ export const Messages = () => {
           <iframe 
             src="https://forms.gle/vroeiJDqBi7f4PXU6"
             width="500" 
-            height="700"
+            height="800"
             title="Lista de Presença"
           >
             Loading...
