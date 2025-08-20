@@ -11,7 +11,7 @@ export const DressCode = () => {
           </h2>
           <div className="w-24 h-0.5 bg-earth mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Estamos pensando em um dress code <b>esporte fino</b> que combine com o tema do nosso casamento, que é inspirado na natureza.
+            Pensamos em um dress code <b>esporte fino/social</b> que combine com o tema do nosso casamento, que é inspirado na natureza outonal.
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             
@@ -19,13 +19,17 @@ export const DressCode = () => {
 
           <br />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Para mulheres, <b>NÃO queremos as cores preta, verde (escuro), dourado, vermelho.</b>
+            MULHERES: <b>Evitem as cores preta, verde (escuro), vermelho e branco.</b>
+            <br/>
+            Sugerimos trajes similares aos seguintes:
           </p>
           <img src={roupaFemImg} alt="Dress Code" className="mx-auto mt-6 rounded-lg shadow-lg object-cover" /> 
 
           <br />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Para homens, <b>NÃO queremos jeans (cor azul) e tênis esportivo</b>
+            HOMENS: <b>Evitem calças jeans e tênis esportivo.</b>
+            <br/>
+            Sugerimos trajes similares aos seguintes:
           </p>
           <img src={roupaMascImg} alt="Dress Code" className="mx-auto mt-6 rounded-lg shadow-lg object-cover" /> 
         </div>
