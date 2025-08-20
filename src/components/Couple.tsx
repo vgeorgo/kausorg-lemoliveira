@@ -5,6 +5,9 @@ import casal3Img from "@/assets/casal3.jpg";
 import casal4Img from "@/assets/casal4.jpg";
 import casal5Img from "@/assets/casal5.jpg";
 import casal6Img from "@/assets/casal6.jpg";
+import casal7Img from "@/assets/casal7.jpg";
+import casal8Img from "@/assets/casal8.jpg";
+import casal9Img from "@/assets/casal9.jpg";
 
 const photos = [
   {
@@ -37,6 +40,21 @@ const photos = [
     image: casal3Img,
     title: "Casal 3",
   },
+  {
+    id: 7,
+    image: casal7Img,
+    title: "Casal 7",
+  },
+  {
+    id: 8,
+    image: casal8Img,
+    title: "Casal 8",
+  },
+  {
+    id: 9,
+    image: casal9Img,
+    title: "Casal 9",
+  },
 ];
 
 export const Couple = () => {
@@ -49,7 +67,7 @@ export const Couple = () => {
           </h2>
           <div className="w-24 h-0.5 bg-earth mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            As coisas acontecem na hora certa! Isso resume nossa história. O impacto que um causou no outro nos levou a um reencontro que transformou uma faísca numa explosáo de emoções. Notamos que somos as pessoas que esperamos encontrar a vida inteira. A cada momento estamos mais fortes, cheios de orgulho de quem somos juntos e temos fé em nós e em nossa família, que se edifica a cada novo dia. O casamento será a celebração do nosso amor, da nossa união e do nosso compromisso de construir um futuro juntos, repleto de felicidade e realizações. Estamos ansiosos para compartilhar esse momento especial com todos vocês!
+            As coisas acontecem na hora certa! Isso resume nossa história. O impacto que um causou no outro nos levou a um reencontro que transformou uma faísca numa explosão de emoções. Notamos que somos as pessoas que esperamos encontrar a vida inteira. A cada momento estamos mais fortes, cheios de orgulho de quem somos juntos e temos fé em nós e em nossa família, que se edifica a cada novo dia. O casamento será a celebração do nosso amor, da nossa união e do nosso compromisso de construir um futuro juntos, repleto de felicidade e realizações. Estamos ansiosos para compartilhar esse momento especial com todos vocês!
           </p>
         </div>
         
