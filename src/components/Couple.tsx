@@ -49,7 +49,7 @@ export const Couple = () => {
           </h2>
           <div className="w-24 h-0.5 bg-earth mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            As coisas acontecem na hora certa! Isso resume nossa história. Nos conhecemos um ano antes de decidirmos começar a namorar. Mesmo tendo gostado um do outro, nós tomamos decisões de acordo com o que conseguiamos lidar no momento, mas isso não fez com que nossa história acabasse. A curiosidade e o impacto que um causou no outro estava ali, esperando para ser estimulado, uma pequena faísca que explodiu em um oceano de emoções. A cada momento estamos mais fortes e cheios de orgulho de quem somos juntos, e o inevitável do casamento é só mais um passo para duas pessoas que ja estão casados em pensamento.
+            As coisas acontecem na hora certa! Isso resume nossa história. O impacto que um causou no outro nos levou a um reencontro que transformou uma faísca numa explosáo de emoções. Notamos que somos as pessoas que esperamos encontrar a vida inteira. A cada momento estamos mais fortes, cheios de orgulho de quem somos juntos e temos fé em nós e em nossa família, que se edifica a cada novo dia. O casamento será a celebração do nosso amor, da nossa união e do nosso compromisso de construir um futuro juntos, repleto de felicidade e realizações. Estamos ansiosos para compartilhar esse momento especial com todos vocês!
           </p>
         </div>
         
