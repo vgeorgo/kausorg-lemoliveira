@@ -77,7 +77,7 @@ export const GiftsList = () => {
           </h2>
           <div className="w-24 h-0.5 bg-earth mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Aqui vão algumas ideias para nos presentear.
+            Aqui vão algumas ideias para nos presentear!
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
             Após a escolha é só clicar no botão para copiar o código do PIX e ir em seu aplicativo bancário para realizar a transferência.
