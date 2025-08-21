@@ -54,6 +54,19 @@ export const WeddingHero = () => {
                   Ver no Google Maps
                 </a>
               </button>
+              <p className="text-muted-foreground">
+                <br />SUGESTÕES DE ESTACIONAMENTOS<br />
+                Opções de estacionamentos indicados, mas há muitas outras opções pela região:<br />
+                <br />
+                Linked Batel – Rua Comendador Araujo, 542 - centro<br />
+                (período – R$25,00 por carro, antes de chegar na rua des. motta)<br />
+                <br />
+                Class Park – Rua Comendador Araújo, 652 – ao lado do Banco Safra e Fomento PR<br />
+                (período 37,00 por carro, com carimbo do Dom Parma – aberto até as 2 horas da madrugada)<br />
+                <br />
+                SOHO PARK – Rua Des. Motta, 2044 – Hotel Mercure<br />
+                (período – R$18,00 por carro, com carimbo do Dom Parma – 24 horas)<br />
+              </p>
             </div>
           </div>
         </div>
